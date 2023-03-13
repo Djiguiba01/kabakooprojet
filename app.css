@@ -10,6 +10,7 @@ body{
     background-size: cover;
 }
 
+/* Menu::::::::::::::::: */
 #menu{
     background-color: darkblue !important;
     height: 15%;
@@ -23,7 +24,7 @@ body{
 span{
     color: white;
 }
-h5{
+h6{
     color: yellow;
 }
 #textmenu{
@@ -32,6 +33,9 @@ h5{
 
 /* Corps:::: */
 /* Text::::::::::: */
+.container{
+    width: 80%; height: 10%; margin-top: 12%;
+}
 .textcorps{
     text-align: center;
     color: darkblue;
@@ -64,7 +68,6 @@ p{
 }
 .deux,.trois, .quatre {
     width: 24%;
-    /* height: 10% !important; */
 }
 select{
     border-color: white !important;
