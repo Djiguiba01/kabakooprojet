@@ -1,5 +1,5 @@
 html, body {
-    margin:0;
+    /* margin:0; */
     height:100%;
   }
 body{
@@ -14,6 +14,21 @@ body{
     background-color: darkblue !important;
     height: 15%;
 }
+.navbar-brand{
+    color: white !important;
+    font-weight: bold;
+    font-size: 30px !important;
+
+}
+span{
+    color: white;
+}
+h5{
+    color: yellow;
+}
+#textmenu{
+    color: white !important;
+}
 
 /* Corps:::: */
 /* Text::::::::::: */
@@ -22,7 +37,7 @@ body{
     color: darkblue;
 }
 p{
-    font-size: 34px;
+    font-size: 30px;
     font-weight: bold;
 }
 .htext{
@@ -31,7 +46,7 @@ p{
 }
 /*  Select option:::::: */
 .containerOption{
-    background-color: blueviolet;
+    background-color: white;
     width: 85%;
     height: 10%;
     margin-top: 10%;
@@ -47,10 +62,21 @@ p{
     width: 13%;
 
 }
+.deux,.trois, .quatre {
+    width: 24%;
+    /* height: 10% !important; */
+}
+select{
+    border-color: white !important;
+}
 
 .destinations{
     background-color: yellow;
     border-bottom-right-radius: 80px;
+    width: 220px;
     height: 100%;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 9%;
     
 }
