@@ -52,9 +52,9 @@ p{
 .containerOption{
     background-color: white;
     width: 85%;
-    height: 10%;
+    height: 9%;
     margin-top: 10%;
-    margin-left: 7%;
+    margin-left: 7.5%;
     border-bottom-left-radius: 80px;
     border-bottom-right-radius: 80px;
     display: flex;
@@ -72,6 +72,7 @@ p{
 }
 select{
     border-color: white !important;
+    border-radius: 0px white;
 }
 
 .destinations{
