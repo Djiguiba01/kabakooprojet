@@ -1,0 +1,56 @@
+html, body {
+    margin:0;
+    height:100%;
+  }
+body{
+    background-image: url("assets/H.jpg") ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#menu{
+    background-color: darkblue !important;
+    height: 15%;
+}
+
+/* Corps:::: */
+/* Text::::::::::: */
+.textcorps{
+    text-align: center;
+    color: darkblue;
+}
+p{
+    font-size: 34px;
+    font-weight: bold;
+}
+.htext{
+    font-weight: bold;
+    font-size: 60px;
+}
+/*  Select option:::::: */
+.containerOption{
+    background-color: blueviolet;
+    width: 85%;
+    height: 10%;
+    margin-top: 10%;
+    margin-left: 7%;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    display: flex;
+
+}
+.un{
+    background-color: yellow;
+    border-bottom-left-radius: 80px;
+    width: 13%;
+
+}
+
+.destinations{
+    background-color: yellow;
+    border-bottom-right-radius: 80px;
+    height: 100%;
+    
+}
